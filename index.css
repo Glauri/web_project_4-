@@ -1,0 +1,279 @@
+body{
+    background: #000000;
+    
+width: 1280px;
+height: 1217px;
+}
+
+p{
+    color: aliceblue;
+}
+
+.vector{
+    position: absolute;
+width: 173px;
+height: 33px;
+left: 202px;
+top: 45px;
+
+background-image: url("imagenes/Vector.png");
+}
+
+.line{
+    
+position: absolute;
+width: 882px;
+height: 0px;
+left: 199px;
+top: 119px;
+
+opacity: 0.7;
+border: 1px solid #545454;
+}
+
+.lapiz{
+    position: absolute;    
+left: 59%;
+right: 39.84%;
+top: 16.68%;
+bottom: 82.5%;
+}
+
+
+.profile{
+    position: absolute;
+width: 882px;
+height: 120px;
+left: 199px;
+top: 159px;
+background-color: yellowgreen;
+
+}
+
+.avatar{
+   
+
+   
+width: 120px;
+height: 120px;
+left: 199px;
+top: 159px;
+border-radius: 100%;
+
+background: url("imagenes/cousteau.jpg");
+
+}
+
+.profileinfo{
+    
+width: 428px;
+height: 77px;
+left: 349px;
+top: 177px;
+background-color: violet;
+}
+
+.name{
+    
+width: 380px;
+height: 43px;
+left: 349px;
+top: 123px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 56px;
+/* or 133% */
+
+
+color: #FFFFFF;
+}
+
+.title{
+    
+width: 318px;
+height: 18px;
+left: 350px;
+top: 200px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+
+.rectangle{
+    
+width: 24px;
+height: 24px;
+left: 753px;
+top: 196px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.cruz{
+    
+height: 22px;
+left: 77.73%;
+right: 20.55%;
+top: 208px;
+}
+
+.rectangles{
+    width: 150px;
+height: 50px;
+left: 931px;
+top: 194px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+
+}
+
+.elements{
+    position: absolute;
+width: 882px;
+height: 744px;
+left: 199px;
+top: 329px;
+background-color: tomato;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.fotos{
+    width: 282px;
+    height: 361px;
+    left: 199px;
+    top: 330px;
+    
+    background: #FFFFFF;
+    border-radius: 10px; 
+    margin-right: 18px;   
+}
+
+.fotos1{
+width: 282px;
+height: 361px;
+left: 499px;
+top: 330px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+margin-right: 18px;
+}
+
+.fotos2{
+    
+width: 282px;
+height: 361px;
+left: 799px;
+top: 330px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.fotos3{
+    
+
+width: 282px;
+height: 361px;
+left: 199px;
+top: 712px;
+
+background: #FFFFFF;
+border-radius: 10px;
+margin-right: 18px;
+margin-top: 18px;
+}
+
+.fotos4{
+    width: 282px;
+height: 361px;
+left: 499px;
+top: 712px;
+
+background: #FFFFFF;
+border-radius: 10px;
+margin-right: 18px;
+margin-top: 18px;
+
+}
+
+.fotos5{
+    width: 282px;
+height: 361px;
+left: 799px;
+top: 712px;
+
+background: #FFFFFF;
+border-radius: 10px;
+margin-top: 18px;
+}
+
+
+.footer{
+    position: absolute;
+    width: 318px;
+height: 18px;
+left: 199px;
+top: 1139px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+background-color: coral;
+color: #545454;
+
+}
+
+.yosemite{
+width: 282px;
+height: 282px;
+left: 199px;
+top: 330px;
+
+
+border-radius: 10px 10px 0px 0px;
+}
+
+.valley{
+    
+width: 246px;
+height: 23px;
+left: 220px;
+top: 637px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+
+.heart{
+    height: 18.13px;
+left: 45%;
+right: 64.16%;
+top: 643px;
+
+}
