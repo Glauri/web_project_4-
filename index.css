@@ -1,35 +1,15 @@
+@import url("./blocks/header/header.css");
+
+
 body{
     background: #000000;
-    
-width: 1280px;
-height: 1217px;
+    width: 1280px;
+    height: 1217px;
 }
 
-p{
-    color: aliceblue;
-}
 
-.vector{
-    position: absolute;
-width: 173px;
-height: 33px;
-left: 202px;
-top: 45px;
 
-background-image: url("imagenes/Vector.png");
-}
 
-.line{
-    
-position: absolute;
-width: 882px;
-height: 0px;
-left: 199px;
-top: 119px;
-
-opacity: 0.7;
-border: 1px solid #545454;
-}
 
 .lapiz{
     position: absolute;    
@@ -58,8 +38,8 @@ width: 120px;
 height: 120px;
 left: 199px;
 top: 159px;
+display: block;
 border-radius: 100%;
-
 background: url("imagenes/cousteau.jpg");
 
 }
