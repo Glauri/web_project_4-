@@ -1,10 +1,11 @@
-@import url("./vector/vector.css");
-@import url("./line/line.css");
+@import url("./vector/header__vector.css");
+@import url("./line/header__line.css");
 
 .header{
     display: block;
     width: 882px;
-    height: 74px;
-    margin-left: 199px;
-    margin-top: 119px;
+    height: 74px;  
+    margin-top: 40px;
+    border-bottom: 1px solid  #545454;
+
 }

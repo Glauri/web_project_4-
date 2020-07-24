@@ -1,0 +1,24 @@
+@import url(./__avatar/profile__avatar.css);
+@import url(./__eclipse/profile__eclipse.css);
+@import url(./__info_rectangle/profile__info_rectangle.css);
+@import url(./__info_name/profile__info_name.css);
+@import url(./__info/profile__info.css);
+@import url(./__info_bis/profile__info_bis.css);
+@import url(./__info_subimport/profile__info_subimport.css);
+@import url(./__info_subname/profile__info_subname.css);
+@import url(./__info_signo/profile__info_signo.css);
+
+
+.profile {
+  max-width: 882px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .profile {
+    flex-direction: column;
+    margin-top: 38.25px;
+  }
+}

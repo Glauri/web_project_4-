@@ -9,9 +9,10 @@
 
 </head>
 
-<body>
+<body class="page">
+    <div class="page__content">
     <header class="header">
-        <div class="vector"><svg viewBox="0 0 173 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="header__vector"><svg viewBox="0 0 173 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.19039 32.6066L6.59219 25.7282H16.8126L19.2017 32.6066H23.3921L13.9765 6.61607H9.41559L0 32.6066H4.19039ZM7.74199 22.4287L11.6002 11.337H11.8046L15.6628 22.4287H7.74199Z" fill="white"/>
             <path d="M26.8638 32.6066H30.6837V20.7027C30.6837 18.1519 32.6639 16.3118 35.3723 16.3118C36.1644 16.3118 37.0587 16.4514 37.3653 16.5402V12.9107C36.9821 12.8599 36.2283 12.8218 35.7428 12.8218C33.4432 12.8218 31.4758 14.1163 30.7604 16.2102H30.556V13.1137H26.8638V32.6066Z" fill="white"/>
             <path d="M48.2342 33C53.766 33 57.3815 28.9771 57.3815 22.949C57.3815 16.8828 53.766 12.8599 48.2342 12.8599C42.7023 12.8599 39.0868 16.8828 39.0868 22.949C39.0868 28.9771 42.7023 33 48.2342 33ZM48.2469 29.8146C44.6314 29.8146 42.9451 26.68 42.9451 22.9363C42.9451 19.2052 44.6314 16.0326 48.2469 16.0326C51.8369 16.0326 53.5232 19.2052 53.5232 22.9363C53.5232 26.68 51.8369 29.8146 48.2469 29.8146Z" fill="white"/>
@@ -27,35 +28,28 @@
             <path d="M172.233 8.84964C172.655 8.84964 173 8.50699 173 8.08819C173 7.6694 172.655 7.32675 172.233 7.32675C171.812 7.32675 171.467 7.6694 171.467 8.08819C171.467 8.50699 171.812 8.84964 172.233 8.84964Z" fill="white"/>
             </svg>
             </div> 
-        <div class="line"></div>
     </header>
-
-        <div class="profile">
-            <div class ="avatar">
-                <div class="eclipse"></div>
+    
+    <main>
+      
+      <section class="profile">
+            <div class ="profile__avatar">
+                <img src="../imagenes/cousteau.jpg"  class="profile__eclipse" alt="Jacques Cousteau">
             </div>
-            <div class="profileinfo">
-                <p class="name">Jacques Cousteau</p>
-                <p class="title">Explorer</p>
-                <div class="rectangle">
-                    <svg class="lapiz" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 1.32827L2.60377 8.7666L1.28302 7.41936L8.66038 0L10 1.32827ZM0 10L1.96226 9.41177L0.584906 8.08349L0 10Z" fill="white"/>
-                        </svg>
-                        
-                </div>
-            </div>
-        </div>
-        <div class="addbutton">
-            <div class="cruz"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 9.77778H12.2222V0H9.77778V9.77778H0V12.2222H9.77778V22H12.2222V12.2222H22V9.77778Z" fill="white"/>
-                </svg>
-                </div>
-            <div class="rectangles"></div>
-        </div>
-    </header>
 
-<main>
-    <section class="elements">
+            <div class="profile__info">
+                    <div class="profile__info_bis">
+                      <h2 class="profile__info_name">Jacques Cousteau</h2>
+                      <button class="profile__info_rectangle" aria-label="Edit Button"></button>
+                    </div>
+                    <div class="profile__info_subimport">
+                       <p class="profile__info_subname">Explorer</p>
+                    </div>   
+            </div>    
+                   <button class="profile__info_signo" aria-label="Location Card"></button>
+      </section>
+    
+      <section class="elements">
         <div class="fotos">
             <div><img  class="yosemite" src="../imagenes/kirill-pershin.jpg" alt=""></div>
             <p class="valley">Yosemite Valley
@@ -67,13 +61,13 @@
         <div class="fotos1"></div>
         <div class="fotos2"></div>
         <div class="fotos3"></div>
-        <div class="fotos4"></div>
         <div class="fotos5"></div>   
     </section>
-</main>
+    </main>
 <footer>
     <p class="footer">© 2020 Around The U.S.</p>
 </footer>
+</div>
 </body>
 
 </html>

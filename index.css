@@ -1,103 +1,15 @@
 @import url("./blocks/header/header.css");
+@import url("./blocks/profile/profile.css");
+@import url("./fonts/inter.css");
+@import url("./blocks/page/page.css");
 
-
-body{
+/*body{
     background: #000000;
     width: 1280px;
     height: 1217px;
-}
+}*/
 
 
-
-
-
-.lapiz{
-    position: absolute;    
-left: 59%;
-right: 39.84%;
-top: 16.68%;
-bottom: 82.5%;
-}
-
-
-.profile{
-    position: absolute;
-width: 882px;
-height: 120px;
-left: 199px;
-top: 159px;
-background-color: yellowgreen;
-
-}
-
-.avatar{
-   
-
-   
-width: 120px;
-height: 120px;
-left: 199px;
-top: 159px;
-display: block;
-border-radius: 100%;
-background: url("imagenes/cousteau.jpg");
-
-}
-
-.profileinfo{
-    
-width: 428px;
-height: 77px;
-left: 349px;
-top: 177px;
-background-color: violet;
-}
-
-.name{
-    
-width: 380px;
-height: 43px;
-left: 349px;
-top: 123px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 42px;
-line-height: 56px;
-/* or 133% */
-
-
-color: #FFFFFF;
-}
-
-.title{
-    
-width: 318px;
-height: 18px;
-left: 350px;
-top: 200px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-
-color: #FFFFFF;
-
-}
-
-.rectangle{
-    
-width: 24px;
-height: 24px;
-left: 753px;
-top: 196px;
-
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-}
 
 .cruz{
     
@@ -123,7 +35,6 @@ border-radius: 2px;
     position: absolute;
 width: 882px;
 height: 744px;
-left: 199px;
 top: 329px;
 background-color: tomato;
 display: flex;
