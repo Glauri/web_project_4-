@@ -4,12 +4,10 @@
 @import url("./blocks/page/page.css");
 @import url("./blocks/elements/elements.css");
 @import url("./blocks/fotos/fotos.css");
-@import url("./blocks/fotos1/fotos1.css");
-@import url("./blocks/fotos2/fotos2.css");
-@import url("./blocks/fotos3/fotos3.css");
-@import url("./blocks/fotos4/fotos4.css");
-@import url("./blocks/fotos5/fotos5.css");
 @import url("./blocks/footer/footer.css");
+@import url("./blocks/popup/popup.css");
+@import url("./blocks/form/form.css");
+
 
 
 

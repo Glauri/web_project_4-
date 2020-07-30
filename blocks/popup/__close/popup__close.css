@@ -1,0 +1,26 @@
+@import url('./_image/popup__close_image.css');
+
+.popup__close {
+  background-image: url("../../../imagenes/CloseIcon.svg");
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  
+  width: 40.7px;
+  height: 40.7px;
+  margin-left: 460px;
+  transition-duration: 1s;
+  
+  
+}
+
+.popup__close:hover {
+  opacity: .6; 
+
+}
+@media screen and (max-width: 425px)
+{
+  .popup__close {
+    margin-left: 275px;
+  }
+}
