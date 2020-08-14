@@ -9,6 +9,9 @@ const submitButton = document.querySelector('.popup__submit-button');
 const inputName = document.querySelector('.form__input_name');
 const inputOccupation = document.querySelector('.form__input_aboutme');
 
+
+
+
 function toggleModal(){
   modal.classList.toggle('popup_opened');
 }

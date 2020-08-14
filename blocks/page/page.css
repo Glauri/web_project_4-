@@ -1,7 +1,10 @@
-.page{
-    max-width: 882px;
-    height: 1217px;
-    margin: auto;
-    background: #000000;
+@import url('./__content/page__content.css');
 
+.page{
+    
+    font-family: 'Inter', Arial, sans-serif;
+    background: #000000;
+    text-rendering: optimizeLegibility;
+    position: relative;
 }
+

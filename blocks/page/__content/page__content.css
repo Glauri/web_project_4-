@@ -1,0 +1,8 @@
+.page__content {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}

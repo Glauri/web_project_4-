@@ -1,8 +1,8 @@
 .profile__info_signo {
   width: 150px;
   height: 50px;
-  margin-left: 150px;
-  margin-top: 25px;
+  margin-left: 151px;
+  margin-top: 3px;
   background-image: url("../../../imagenes/signo.png");
   background-repeat: no-repeat;
   background-color: #000000;
@@ -17,6 +17,13 @@
 
 .profile__info_signo:hover {
   opacity: .6;
+}
+
+@media screen and (max-width: 900px){
+.profile__info_signo {
+    width: 88%;
+    margin: 36px auto;
+    }
 }
 
 @media screen and (max-width: 425px) {

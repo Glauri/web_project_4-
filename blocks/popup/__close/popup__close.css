@@ -5,12 +5,13 @@
   background-color: transparent;
   border: none;
   background-position: center;
-  
   width: 40.7px;
   height: 40.7px;
-  margin-left: 460px;
+  margin-left: 445px;
   transition-duration: 1s;
-  
+  position: absolute;
+  top: 90px;
+  border-radius: 50%;
   
 }
 
@@ -21,6 +22,8 @@
 @media screen and (max-width: 425px)
 {
   .popup__close {
-    margin-left: 275px;
+    margin-left: 240px;
+    margin-top: 8px;
   }
 }
+    

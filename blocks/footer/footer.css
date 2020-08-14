@@ -3,7 +3,7 @@ width: 318px;
 height: 18px;
 margin-top: 66px;
 margin-bottom: 60px;
-
+margin-left: 160px;
 font-family: 'Inter', 'Arial', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -13,13 +13,25 @@ color: #545454;
 }
 
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 300px) {
   .footer {
-    max-width: 282px;
-    margin: 0 auto;
-    margin-top: 1600px;
-
-  }
+        margin-left: 10px;
+        width: 288px;
+    }
 }
 
+
+@media screen and (max-width: 320px){
+  .footer {
+    margin-left: 10px;
+
+     }
+  }
+
+
+  @media screen and (max-width: 1020px){
+    .footer {
+      margin-left: 60px;
+  
+       }
+    }  

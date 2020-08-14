@@ -2,10 +2,37 @@
 @import url("./line/header__line.css");
 
 .header{
+    
+    max-width: 882px;
+    height: 82px;  
     display: block;
-    width: 882px;
-    height: 74px;  
-    margin-top: 40px;
+    margin-left: 160px;
     border-bottom: 1px solid  #545454;
+    align-self: stretch;
+    padding-top: 45px;
+    
 
 }
+
+@media screen and (max-width: 900px){
+.header {/*
+    padding: 28px 0 0 10%;*/
+    max-height: 56px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .header{
+    width: 288px;
+    margin-left: 5px;
+
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .header {
+      margin-left: 60px;
+  
+       }
+    }
