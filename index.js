@@ -16,7 +16,7 @@ form.addEventListener("submit",(event)=>{
     event.preventDefault();
 
 profileName.textContent = nameInput.value;
-profileSubname,textCOntent = aboutInput.value;
+profileSubname.textCOntent = aboutInput.value;
 
 toggleModal()
 
@@ -29,3 +29,7 @@ function toggleModal(){
 editButton.addEventListener("click", toggleModal)
 
 closeButton.addEventListener("click", toggleModal)
+
+
+console.log(form)
+console.log(modal)
