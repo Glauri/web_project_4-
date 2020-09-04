@@ -16,7 +16,7 @@ form.addEventListener("submit",(event)=>{
     event.preventDefault();
 
 profileName.textContent = nameInput.value;
-profileSubname.textCOntent = aboutInput.value;
+profileSubname.textContent = aboutInput.value;
 
 toggleModal()
 
