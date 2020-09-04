@@ -1,46 +1,31 @@
-const editButton = document.querySelector('.profile__info_rectangle');
-const closeButton = document.querySelector('.popup__close_image');
-const modal = document.querySelector('.popup');
+const editButton = document.querySelector(".profile__edit");
+const closeButton = document.querySelector('.popup__close');
 const form = document.querySelector('.form');
-const addProfileModal = document.querySelector('.popup_opened');
+const modal = document.querySelector(".popup");
+const nameInput = document.querySelector('.form__input_name');
+const aboutInput = document.querySelector('.form__input_aboutme');
 const profileName = document.querySelector('.profile__info_name');
-const profileOccupation = document.querySelector('.profile__info_subname');
-const submitButton = document.querySelector('.popup__submit-button');
-const inputName = document.querySelector('.form__input_name');
-const inputOccupation = document.querySelector('.form__input_aboutme');
+const profileSubname = document.querySelector('.profile__info_subname');
+const submitButton = document.querySelector(".popup__submit-button"); 
 
 
 
+
+
+form.addEventListener("submit",(event)=>{
+    event.preventDefault();
+
+profileName.textContent = nameInput.value;
+profileSubname,textCOntent = aboutInput.value;
+
+toggleModal()
+
+})
 
 function toggleModal(){
-  modal.classList.toggle('popup_opened');
+    modal.classList.toggle("popup_opened");
 }
 
+editButton.addEventListener("click", toggleModal)
 
-editButton.addEventListener('click', () => {
-  toggleModal();
-});
-  
-closeButton.addEventListener('click', () => {
-  toggleModal();
-});
-
-submitButton.addEventListener('click',() => {
-  toggleModal();
-})
-
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-
-
-profileName.textContent = inputName.value;
-profileOccupation.textContent = inputOccupation.value;
-
-
-toggleModal();
-
-})
-
-
+closeButton.addEventListener("click", toggleModal)

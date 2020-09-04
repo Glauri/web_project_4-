@@ -18,6 +18,7 @@
 .header {/*
     padding: 28px 0 0 10%;*/
     max-height: 56px;
+    margin-left: 0;
     }
 }
 
@@ -30,9 +31,9 @@
     }
 }
 
-@media screen and (max-width: 1020px){
+/*@media screen and (max-width: 1020px){
     .header {
       margin-left: 60px;
   
        }
-    }
+    }*/

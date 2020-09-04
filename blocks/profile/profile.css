@@ -1,6 +1,6 @@
 @import url(./__avatar/profile__avatar.css);
 @import url(./__eclipse/profile__eclipse.css);
-@import url(./__info_rectangle/profile__info_rectangle.css);
+@import url(./__edit/profile__edit.css);
 @import url(./__info_name/profile__info_name.css);
 @import url(./__info/profile__info.css);
 @import url(./__info_bis/profile__info_bis.css);
@@ -31,6 +31,7 @@
 .profile {
     flex-direction: column;
     padding-top: 38px;
+    margin-left: 0;
     }
 }
 
@@ -39,6 +40,6 @@
     width: 288px;
     flex-direction: column;
     margin-top: 38px;
-    margin-left: auto;
+    /*margin-left: auto;*/
   }
 }
