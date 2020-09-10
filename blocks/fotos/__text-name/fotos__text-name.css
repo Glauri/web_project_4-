@@ -1,4 +1,4 @@
-.fotos__text_name{
+.fotos__text-name{
     width: 250px;
     margin-left: 20px;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -13,7 +13,7 @@
 
 
 
-.fotos__text_name:nth-child(5){
+.fotos__text-name:nth-child(5){
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

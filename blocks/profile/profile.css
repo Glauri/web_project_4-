@@ -1,30 +1,23 @@
-@import url(./__avatar/profile__avatar.css);
 @import url(./__eclipse/profile__eclipse.css);
 @import url(./__edit/profile__edit.css);
-@import url(./__info_name/profile__info_name.css);
+@import url(./__info-name/profile__info-name.css);
 @import url(./__info/profile__info.css);
-@import url(./__info_bis/profile__info_bis.css);
-@import url(./__info_subimport/profile__info_subimport.css);
-@import url(./__info_subname/profile__info_subname.css);
-@import url(./__info_signo/profile__info_signo.css);
+@import url(./__info-bis/profile__info-bis.css);
+@import url(./__info-subname/profile__info-subname.css);
+@import url(./__info-signo/profile__info-signo.css);
 
 
 .profile {
   max-width: 882px;
   margin-top: 40px;
-  margin-left: 160px;
+  margin: 40px auto;
   display: flex;
   min-height: 120px;
   align-items: center;
   justify-content: flex-start;
   }
 
-  @media screen and (max-width: 1020px){
-    .profile {
-        margin-left: 55px;
-        }
-    }
-
+  
 
 
   @media screen and (max-width: 900px){

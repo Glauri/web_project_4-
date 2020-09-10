@@ -7,10 +7,10 @@
   background-position: center;
   width: 40.7px;
   height: 40.7px;
-  margin-left: 445px;
   transition-duration: 1s;
   position: absolute;
-  top: 90px;
+  top: 110px;
+  left: 885px;
   border-radius: 50%;
   
 }
@@ -19,11 +19,18 @@
   opacity: .6; 
 
 }
-@media screen and (max-width: 425px)
+
+
+
+
+@media screen and (max-width: 900px)
 {
   .popup__close {
-    margin-left: 240px;
-    margin-top: 8px;
+    
+    
+    left: 81%;
   }
+
+
 }
     

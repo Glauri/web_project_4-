@@ -1,11 +1,18 @@
 @import url("./__pic/fotos__pic.css");
 @import url("./__text/fotos__text.css");
-@import url("./__text_heart/fotos__text_heart.css");
-@import url("./__text_name/fotos__text_name.css");
+@import url("./__text-heart/fotos__text-heart.css");
+@import url("./__text-name/fotos__text-name.css");
 
 .fotos{
     width: 282px;
     height: 361px;
     background: #FFFFFF;
-    border-radius: 10px; 
+    border-radius: 10px;
+    list-style: none;
+	padding: 0;
+	margin: 0; 
     }
+
+    
+  
+    

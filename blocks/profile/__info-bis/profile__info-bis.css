@@ -1,10 +1,10 @@
-.profile__info_bis {
+.profile__info-bis {
   width: 428px;
   display: flex;
 }
 
 @media screen and (max-width: 425px) {
-  .profile__info_bis {
+  .profile__info-bis {
     display: flex;
     justify-content: center;
   }
