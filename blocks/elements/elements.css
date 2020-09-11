@@ -1,11 +1,8 @@
 .elements{
-<<<<<<< HEAD
     max-width: 884px;
     margin: 0 auto;  
-=======
     max-width: 882px;
     margin-left: 160px;
->>>>>>> hotfix/elements
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
