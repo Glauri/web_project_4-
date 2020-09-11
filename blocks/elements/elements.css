@@ -1,29 +1,48 @@
 .elements{
+<<<<<<< HEAD
     max-width: 884px;
     margin: 0 auto;  
+=======
+    max-width: 882px;
+    margin-left: 160px;
+>>>>>>> hotfix/elements
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 18px;
     grid-row-gap: 21px;
-
+    list-style: none;
+    padding: 0;
+   
     }
-  
+
+
+      
+      
+    
+
+@media screen and (max-width: 1020px){
+  .elements {
+        margin: 0 auto;
+       }
+    }
+    
+    
 @media screen and (max-width: 900px){
-.elements {
+  .elements {
     max-width: 450px;
+    margin-left: 0px;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
    }
 }
 
 
   @media screen and (max-width: 320px) {
     .elements {
-        width: 288px;
+          width: 288px;
           grid-template-columns: 1fr;
-          margin: 0 auto;
           margin-left: 10px;
-      }
+        }
   }

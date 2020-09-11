@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Around the U.S</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 
 </head>
@@ -16,84 +15,75 @@
         
           <img src="imagenes/Vector.svg" alt="vector" class="header__vector">
          
-    </header>
+      </header>
     
     <main>
       
       <section class="profile">
-            <div class ="profile__avatar">
                 <img src="imagenes/cousteau.jpg"  class="profile__eclipse" alt="Jacques Cousteau">
-            </div>
-
+            
             <div class="profile__info">
-                    <div class="profile__info_bis">
-                      <h2 class="profile__info_name">Jacques Cousteau</h2>
-                      <button class="profile__edit"></button>
+                    <div class="profile__info-bis">
+                      <h1 class="profile__info-name">Jacques Cousteau</h1>
+                      <button class="profile__edit" aria-label="button to edit profile"></button>
                     </div>
-                    <div class="profile__info_subimport">
-                       <p class="profile__info_subname">Explorer</p>
-                    </div>   
+                       <p class="profile__info-subname">Explorer</p>
+                       
             </div>    
-                   <button class="profile__info_signo"></button>
+                   <button class="profile__info-signo"></button>
       </section>
-    
-      <section class="elements">
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/kirill-pershin.jpg" alt="">
+      <section class="grid">
+      <ul class="elements">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/kirill-pershin.jpg" alt="landscape of a river among pines of the Yosmite Valley">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Yosemite Valley</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
+              <p class="fotos__text-name">Yosemite Valley</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+              </div>
+          </li>
 
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/lakelouise.png" alt="">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/lakelouise.png" alt="lake louise landscape between mountains">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Lake Louise</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
+              <p class="fotos__text-name">Lake Louise</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+            </div>
+          </li>
 
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/baldmountains.png" alt="">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/baldmountains.png" alt="the sun rising between rows of mountains">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Bald Mountains</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
+              <p class="fotos__text-name">Bald Mountains</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+            </div>
+          </li>
 
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/latemar.png" alt="">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/latemar.png" alt="top of the mountain, behind a starry night sky">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Latemar</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
+              <p class="fotos__text-name">Latemar</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+            </div>
+          </li>
         
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/vanoisnational.png" alt="">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/vanoisnational.png" alt="mountainous landscape from the lake shore">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Vanoise National</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
+              <p class="fotos__text-name">Vanoise National</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+            </div>
+          </li>
 
 
-          <div class="fotos">
-            <img  class="fotos__pic" src="imagenes/lagodibraies.png" alt="">
+          <li class="fotos">
+            <img  class="fotos__pic" src="imagenes/lagodibraies.png" alt="mountainous landscape from the lake shore, small pier with two boats">
             <div class="fotos__text"> 
-              <p class="fotos__text_name">Lago di Braies</p>
-              <svg class="fotos__text_heart" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19.154 9.33822C21.294 7.19833 21.294 3.72364 19.154 1.60492C17.014 -0.534975 13.5392 -0.534975 11.3992 1.60492L10.361 2.66428L9.32276 1.62611C7.18277 -0.534975 3.70792 -0.534975 1.58911 1.60492C0.550891 2.64309 0 4.02026 0 5.48217C0 6.94408 0.572079 8.32124 1.58911 9.35941L10.361 18.1309L19.154 9.33822ZM1.35604 5.48217C1.35604 4.38044 1.7798 3.36346 2.56376 2.60072C3.36891 1.79561 4.40712 1.39305 5.44534 1.39305C6.48356 1.39305 7.52178 1.79561 8.32692 2.60072L10.361 4.6135L12.395 2.57953C13.9841 0.990498 16.5903 0.990498 18.1582 2.57953C18.921 3.34227 19.3659 4.35925 19.3659 5.46098C19.3659 6.56271 18.9422 7.57969 18.1582 8.34243L10.361 16.1605L2.56376 8.36362C1.80099 7.57969 1.35604 6.56271 1.35604 5.48217Z" fill="black"/>
-              </svg></div>
-          </div>
-      </section>
-
+              <p class="fotos__text-name">Lago di Braies</p>
+              <button class="fotos__text-heart" aria-label="button to select like"></button>
+            </div>
+          </li>
+        </ul>
+      </section> 
     </main>
 
     <div class="popup">
@@ -108,8 +98,8 @@
       </div>
     </div>
 
-    <footer>
-      <p class="footer">© 2020 Around The U.S.</p>
+    <footer class="footer">
+      <p class="footer__copyright">© 2020 Around The U.S.</p>
     </footer>
     <script src="index.js"></script>  
   </div>

@@ -1,4 +1,4 @@
-.profile__info_signo {
+.profile__info-signo {
   width: 150px;
   height: 50px;
   margin-left: 151px;
@@ -15,12 +15,12 @@
 }
 
 
-.profile__info_signo:hover {
+.profile__info-signo:hover {
   opacity: .6;
 }
 
 @media screen and (max-width: 900px){
-.profile__info_signo {
+.profile__info-signo {
     width: 88%;
     margin: 36px auto;
     }
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 425px) {
   
-  .profile__info_signo {
+  .profile__info-signo {
     width: 282px;
     height: 52px;
     margin: 36px auto;

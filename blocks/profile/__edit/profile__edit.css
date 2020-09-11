@@ -16,12 +16,12 @@
 }
 
 
-.profile__info_rectangle:hover {
+.profile__edit:hover {
   opacity: .6;
 }
 
 @media screen and (max-width: 425px) {
-  .profile__info_rectangle {
+  .profile__edit {
     max-width: 18px;
     max-height: 18px;
     margin-top: 20px;
